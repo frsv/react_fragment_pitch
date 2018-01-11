@@ -10,14 +10,6 @@
 
 ---
 
-## Docs
-
-- http://docs.graphene-python.org/en/latest
-- http://graphql.org/learn
-- https://www.apollographql.com/docs/react/
-
----
-
 ## No thank you 👎
 
 ```html
@@ -69,7 +61,10 @@ const Heading = props => {
   )
 }
 
-ReactDOM.render(<Heading title="wow" subtitle="very react"/>, document.getElementById("main"))
+ReactDOM.render(
+    <Heading title="wow" subtitle="very react"/>, 
+    document.getElementById("main"),
+)
 ```
 
 ---
@@ -87,8 +82,10 @@ const Header = props => {
   )
 }
 
-ReactDOM.render(<Header title="wow" subtitle="very react"/>, document.getElementById("main"))
-
+ReactDOM.render(
+    <Header title="wow" subtitle="very react"/>, 
+    document.getElementById("main"),
+)
 ```
 
 ---
