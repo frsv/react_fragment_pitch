@@ -53,7 +53,7 @@
 ## < React 16.2
 ### You can't do this 👎
 
-```javascript
+```jsx
 const Heading = props => {
   return (
     <h1>{props.title}</h1>
@@ -72,7 +72,7 @@ ReactDOM.render(
 ## < React 16.2
 ### You have to wrap the headings in a containing element 👍
 
-```javascript
+```jsx
 const Header = props => {
   return (
     <header>
@@ -86,6 +86,7 @@ ReactDOM.render(
     <Header title="wow" subtitle="very react"/>, 
     document.getElementById("main"),
 )
+
 ```
 
 ---
@@ -130,7 +131,7 @@ ReactDOM.render(
 
 ## React 16.2+
 
-```javascript
+```jsx
 const Headings = props => {
   return [<h1>{props.title}</h1>, <p>{props.subtitle}</p>]
 }
@@ -140,7 +141,7 @@ const Headings = props => {
 
 ## 🥁Fragment🥁
 
-```javascript
+```jsx
 import React, { Fragment } from "react"
 
 const Headings = props => {
@@ -166,7 +167,7 @@ const Headings = props => {
 
 ## JSX Syntax
 
-```javascript
+```jsx
 const Headings = props => {
   return (
     <>
